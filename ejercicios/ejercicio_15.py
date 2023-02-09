@@ -7,6 +7,6 @@ text = str(input("Please enter the string: "))
 answer = determine_palindrome(text)
 
 if answer:
-    print("Yes, it is a ")
+    print("Yes, it is a palindrome")
 else:
-    print("No")
+    print("No, it is not a palindrome :(")
